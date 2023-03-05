@@ -1,0 +1,73 @@
+body {
+			background-color: #333333;
+			color: white;
+			font-family: Arial, sans-serif;
+		}
+		
+		/* Menu bar styles */
+		#menu {
+			background-color: black;
+			display: flex;
+			align-items: left;
+			padding: 10px;
+		}
+		
+		#menu a {
+			color: white;
+			text-decoration: none;
+			margin-left: 20px;
+		}
+		
+		#menu a:hover {
+			color: red;
+		}
+		
+		/* Login icon styles */
+		#login {
+			background-color: black;
+			color: white;
+			padding: 10px;
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+		
+		/* Signup button styles */
+		#signup {
+			background-color: red;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			font-size: 16px;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+		
+		#signup:hover {
+			background-color: #b30000;
+		}
+		
+		/* Contact and copyright styles */
+		#footer {
+			background-color: #333333;
+			padding: 20px;
+			font-size: 14px;
+			text-align: right;
+		}
+		
+		#footer a {
+			color: white;
+			text-decoration: none;
+		}
+        
+		#welcome {
+			font-size: 15px;
+			font-weight: bold;
+			text-align: center;
+			color: #f7f0f0;
+			margin-top: 20px;
+			margin-bottom: 40px;
+		}
+	
+	
