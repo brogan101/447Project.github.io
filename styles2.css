@@ -1,4 +1,4 @@
-
+/* Body styles */
 body {
 	background-color: #f1f1f1;
 	color: #333;
@@ -7,7 +7,7 @@ body {
 	padding: 0;
   }
   
- 
+  /* Menu bar styles */
   #menu {
 	background-color: #232323;
 	display: flex;
@@ -28,7 +28,7 @@ body {
 	color: #ff0000;
   }
   
-  
+  /* Login icon styles */
   #login {
 	background-color: #232323;
 	color: #fff;
@@ -39,7 +39,7 @@ body {
 	border-radius: 5px;
   }
   
-  
+  /* Signup button styles */
   #signup {
 	background-color: #ff0000;
 	color: #fff;
@@ -55,95 +55,24 @@ body {
 	background-color: #b30000;
   }
   
- 
-  .footer {
-	background-color: #333;
+  /* Footer styles */
+  #footer {
+	position: fixed;
+  	bottom: 0;
+	background-color: #232323;
+	padding: 20px;
+	font-size: 14px;
 	color: #fff;
-	padding: 30px 0;
+	text-align: right;
   }
   
-  .footer p {
-	font-size: 16px;
-	margin: 0;
-	padding: 0;
-  }
-  
-  .footer a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
-  }
-  
-  .footer a:hover {
-	text-decoration: underline;
-  }
-  
-  .footer .logo {
-	font-size: 24px;
-	font-weight: bold;
-	margin: 0;
-  }
-  
-  .footer .menu {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-  }
-  
-  .footer .menu li {
-	margin-right: 20px;
-  }
-  
-  .footer .menu li:last-child {
-	margin-right: 0;
-  }
-  
-  .footer .menu a {
+  #footer a {
+	
 	color: #fff;
 	text-decoration: none;
-	font-size: 16px;
-	font-weight: bold;
   }
   
-  .footer .social {
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	display: flex;
-	margin-top: 20px;
-  }
-  
-  .footer .social li {
-	margin-right: 10px;
-  }
-  
-  .footer .social li:last-child {
-	margin-right: 0;
-  }
-  
-  .footer .social a {
-	display: block;
-	width: 40px;
-	height: 40px;
-	background-color: #fff;
-	color: #333;
-	font-size: 24px;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	transition: background-color 0.3s ease;
-  }
-  
-  .footer .social a:hover {
-	background-color: #ff6600;
-	color: #fff;
-  }
-  
-  
-  
-  
-
+  /* Welcome message styles */
   #welcome {
 	font-size: 24px;
 	font-weight: bold;
@@ -153,7 +82,7 @@ body {
 	margin-bottom: 30px;
   }
   
- 
+  /* Article styles */
   .article {
 	background-color: #fff;
 	border-radius: 5px;
@@ -184,7 +113,7 @@ body {
 	margin-bottom: 20px;
   }
   
-  
+  /* Link styles */
   a {
 	color: #ff6600;
 	text-decoration: none;
@@ -194,7 +123,7 @@ body {
 	text-decoration: underline;
   }
   
- 
+  /* Main Styles */
 
 body {
 	font-family: Arial, sans-serif;
@@ -257,7 +186,7 @@ body {
 	background-color: #f2f2f2;
   }
   
-  
+  /* Table of Contents */
   
   ul {
 	list-style: none;
@@ -278,7 +207,7 @@ body {
 	font-weight: bold;
   }
   
- 
+  /* Code Block */
   
   pre {
 	background-color: #f8f8f8;
@@ -291,7 +220,7 @@ body {
 	font-family: monospace;
   }
   
-  
+  /* Media Queries */
   
   @media (max-width: 767px) {
 	h1 {
